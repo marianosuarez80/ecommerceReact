@@ -508,8 +508,13 @@ header .cart span {
 @media only screen and (max-width: 1000px) {
     .carrito__item {
         width: 92%;
+        
+    }
+    .detalles {
+        width: 92%;
     }
 }
+
 
 @media only screen and (max-width: 700px) {
     .carrito {
