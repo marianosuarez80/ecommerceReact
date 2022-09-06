@@ -8,6 +8,10 @@ export const Carrito = () => {
     const [carrito, setCarrito] = value.carrito;
     const [total]= value.total;
 
+    const removerTodo = ()=> { 
+        return setCarrito([]);
+    }
+
     const tooglefalse = () => {
         setMenu(false);
     }
@@ -87,7 +91,8 @@ export const Carrito = () => {
 
                 <div className="carrito__footer">
                     <h3>Total: ${total}</h3>
-                    <button className="btn">Payment</button>
+                    <button className="btn">Finalizar Compra</button>
+                    <button style={{marginLeft:'10px'}} onClick={()=>removerTodo()} className="btn">Vaciar Carrito</button>
                 </div >
             </div>
         </div>
