@@ -92,7 +92,14 @@ export const Carrito = () => {
                 <div className="carrito__footer">
                     <h3>Total: ${total}</h3>
                     <button className="btn">Finalizar Compra</button>
-                    <button style={{marginLeft:'10px'}} onClick={()=>removerTodo()} className="btn">Vaciar Carrito</button>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    
+
+                    <button style={{marginLeft:'10px'}} onClick={()=>removerTodo()} className="btnDel">Vaciar Carrito</button>
                 </div >
             </div>
         </div>
