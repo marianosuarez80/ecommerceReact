@@ -513,6 +513,20 @@ header .cart span {
     border-radius: 100%;
  }
  
+ #git{
+    color: black;
+    font-size: 30px;
+ }
+
+ #lin{
+    color: mediumblue;
+    font-size: 30px;
+ }
+
+ #hover :hover{
+    font-weight: bold;
+    cursor: pointer;
+ }
  /*---------Agregado para el footer------*/
  
 /*----------MEDIA -----------------*/
