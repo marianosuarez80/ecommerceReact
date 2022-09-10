@@ -1,12 +1,9 @@
 import React from 'react';
 import pili from "../Footer/pili.jpg";
 import nike from "../Footer/Nike.png";
-<<<<<<< HEAD
 import carlos from "../Footer/carlos.jpg";
-=======
 import daniel from "../Footer/daniel.jpeg";
-import mariano from "../Footer/mariano.jpeg"
->>>>>>> 1041a8b15f2b16a3136433b3e08602c3b709f85a
+import mariano from "../Footer/mariano.jpeg";
 
 
 const Nosotros = () => {
@@ -14,19 +11,11 @@ const Nosotros = () => {
     <>
     <div id='hover' style={{display: 'grid', gridTemplateColumns:'repeat(auto-fit, minmax(200px,1fr))', gap: '1rem'}}>
         <div style={{width: '200px', borderRadius: '10px', textAlign:'center',marginBottom:'50px', marginTop:'150px', backgroundColor:'#08a05c', color:'white'}}>
-<<<<<<< HEAD
             <h2>Carlos E. Martinez</h2>
             <img className="abaut" src={carlos}></img>
             <h6>Perito Informático</h6>
             <p><a style={{color: 'yellow'}} href='https://www.linkedin.com/in/carlos-ezequiel-martinez-1097696' target="_blank">Linkedin</a></p>
             <p><a style={{color: 'yellow'}} href='https://github.com/Talapozo' target="_blank">GitHub</a></p>
-=======
-            <h2>Carlos Martinez</h2>
-            <img className="abaut" src={nike}></img>
-            <h6>Lic. en Sistemas</h6>
-            <p><a style={{color: 'yellow'}} href='https://www.linkedin.com/login/es' target="_blank"><i className="bi bi-linkedin" id='lin'></i></a></p>
-            <p><a style={{color: 'yellow'}} href='https://github.com/pili74' target="_blank"><i className="bi bi-github" id='git'></i></a></p>
->>>>>>> 1041a8b15f2b16a3136433b3e08602c3b709f85a
           
         </div>
 
