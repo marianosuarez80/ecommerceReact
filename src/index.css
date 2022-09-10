@@ -348,7 +348,15 @@ header .cart span {
     background-color: #08a05c;
 
 }
+.carrito__footer .btnDel {
+    display: inline-block;
+    padding: .3rem 1rem;
+    font-size: 1.2rem;
+    background-color: #e02828;
+    border-radius: 100px;
 
+
+}
 .carrito__footer .btn:hover {
     background-color: #08a05c;
     color: white;
@@ -437,7 +445,7 @@ header .cart span {
 .detalles img {
     min-height: 300px;
     object-fit: contain;
-    margin-top: -7rem;
+    margin-top: -5rem;
     z-index: -1;
 }
 
@@ -501,6 +509,9 @@ header .cart span {
     color: green;
     font-size: 40px;
  }
+ .abaut{
+    border-radius: 100%;
+ }
  
  /*---------Agregado para el footer------*/
  
@@ -508,8 +519,13 @@ header .cart span {
 @media only screen and (max-width: 1000px) {
     .carrito__item {
         width: 92%;
+        
+    }
+    .detalles {
+        width: 92%;
     }
 }
+
 
 @media only screen and (max-width: 700px) {
     .carrito {
