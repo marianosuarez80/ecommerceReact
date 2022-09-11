@@ -11,9 +11,9 @@ return <div>Cargando...</div>
 return (
    isAuthenticated && (
     <div>
-     <img src={user.picture} alt={user.name}  />
-     <h2>{user.name}</h2>
-     <p>Email: {user.email}</p> 
+     <img src={user.picture} alt={user.name} className="imagen"  />
+     <h2 className="usuario">{user.name}</h2>
+     {/* <p>Email: {user.email}</p>  */}
     </div>
    ) 
 )
