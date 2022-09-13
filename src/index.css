@@ -16,18 +16,18 @@ code {
 }
 
 .App {
-    max-width: 1550px;
+    /* max-width: 1550px;
     width: 100%;
-    min-height: 100vh;
-    margin: 0 auto;
+    min-height: 100vh; */
+    margin: 0;
     box-shadow: 0 5px 6px #08a05ca4;
-    padding: 0 15px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
 /*-----------------HEADER--------------*/
 header {
-    width: 100vw;
+    width: 100%;
     min-height: 100px;
     max-width: 1530;
     overflow: hidden;
@@ -35,11 +35,12 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    position: fixed;
+    position: sticky;
     box-sizing: border-box;
     background-color: white;
     box-shadow: 0 5px 10px #08a050;
-    margin-left: -14px;
+    min-width: none;
+
 }
 
 a {
@@ -100,6 +101,10 @@ header .cart span {
     font-weight: 700;
     background-color: crimson;
 }
+
+/* .navbar {
+    flex-wrap: wrap;
+} */
 
 /*------------inicio------------*/
 .inicio {
@@ -546,7 +551,7 @@ header .cart span {
     font-size: 40px;
 }
 
-.about {
+.abaut {
     border-radius: 100%;
 }
 
