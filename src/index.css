@@ -16,9 +16,9 @@ code {
 }
 
 .App {
-    max-width: 1550px;
+    /* max-width: 1550px;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh; */
     margin: 0 auto;
     box-shadow: 0 5px 6px #08a05ca4;
     padding: 0 15px;
@@ -35,7 +35,7 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    position: fixed;
+    position: sticky;
     box-sizing: border-box;
     background-color: white;
     box-shadow: 0 5px 10px #08a050;
