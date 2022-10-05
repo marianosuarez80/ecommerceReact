@@ -24,6 +24,7 @@ export const Header = () => {
     <img src={Nike} alt="logo" width="150"/>
   </div>
 </Link>
+<div className='navbar'>
 <ul>
 {/* <li>
     <Link to="/login">Login</Link>
@@ -35,6 +36,7 @@ export const Header = () => {
     <Link to="/productos">Productos</Link>
   </li>
 </ul>
+</div>
 <div className="cart"   onClick={toogleMenu}>
   <box-icon name="cart" ></box-icon>
   <span className="item__total">{carrito.length}</span>
