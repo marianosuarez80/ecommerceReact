@@ -1,4 +1,3 @@
-import { BoxIconElement } from 'boxicons'
 import React ,{useContext}from 'react'
 import Nike from "../../images/Nike.png";
 import { Link } from 'react-router-dom';
@@ -7,8 +6,8 @@ import { DataContext } from '../../context/Dataprovider';
 export const Header = () => {
   const value = useContext(DataContext);
   const [menu,setMenu]=value.menu;
-  const show1 = menu ? "carritos show" : "carritos";
-  const show2 = menu ? "carrito show" : "carrito";
+  // const show1 = menu ? "carritos show" : "carritos";
+  // const show2 = menu ? "carrito show" : "carrito";
   const [carrito, setCarrito]= value.carrito;
 
   const toogleMenu=()=>{
@@ -26,9 +25,6 @@ export const Header = () => {
 </Link>
 <div className='navbar'>
 <ul>
-{/* <li>
-    <Link to="/login">Login</Link>
-  </li> */}
   <li>
     <Link to="/">Inicio</Link>
   </li>
