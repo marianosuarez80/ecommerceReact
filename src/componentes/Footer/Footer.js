@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="mb-2"><a className="text-white text-decoration-none" href="#">Formas de Envio</a></div>
         <div className="mb-2"><a className="text-white text-decoration-none" href="#">Cambios</a></div>
         <div className="mb-2"><a className="text-white text-decoration-none" href="#">Botón de Arrepentimiento</a></div>
-        <div clasNames="mb-2"><a className="text-white text-decoration-none" href="#">Ventas Corporativas</a></div>
+        <div className="mb-2"><a className="text-white text-decoration-none" href="#">Ventas Corporativas</a></div>
       </div>
       <div className="col-lg12 col-md-6 col-lg-3">
         <p className=" d-flex h5 mb-3">Contacto</p>
